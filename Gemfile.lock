@@ -57,6 +57,9 @@ GEM
       multi_json (~> 1.0)
     factory_girl (2.6.0)
       activesupport (>= 2.3.9)
+    factory_girl_rails (1.7.0)
+      factory_girl (~> 2.6.0)
+      railties (>= 3.0.0)
     gon (2.1.0)
       actionpack (>= 2.3.0)
       json
@@ -147,7 +150,7 @@ DEPENDENCIES
   cancan
   coffee-rails (~> 3.2.1)
   devise
-  factory_girl
+  factory_girl_rails (~> 1.2)
   gon
   jquery-rails
   nifty-generators

@@ -17,7 +17,7 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'turn', '~> 0.8.3', :require => false
   gem 'shoulda'
-  gem 'factory_girl'
+  gem "factory_girl_rails", "~> 1.2"
   gem 'simplecov', require: false
   gem 'autotest'
   gem 'autotest-rails-pure'
