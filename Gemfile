@@ -19,6 +19,9 @@ group :development, :test do
   gem 'shoulda'
   gem 'factory_girl'
   gem 'simplecov', require: false
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-notification'
 end
 
 group :development do
