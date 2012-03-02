@@ -4,5 +4,6 @@ FactoryGirl.define do
   factory :user do
     email {"test#{Factory.next(:count)}@example.com"}
     password 'asdfasdf'
+    username 'test#{Factory.next(:count)}'
   end
 end
